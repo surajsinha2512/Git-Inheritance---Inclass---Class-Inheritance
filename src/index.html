@@ -1,12 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script  >
+    function toggle() {
+        const del=document.getElementById("something")
+        if(del.style.visibility==="hidden")
+        del.style.visibility="visible";
+        else {
+            del.style.visibility="hidden";
+        }
+        console.log("whats the error")
+    }</script>
+   
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Shape Inheritance</title>
 </head>
+<title>Shape Inheritance</title>
+<h1> Toggle property</h1>
+<h2 id="something">Unused line </h2>
+<button onclick="toggle()">click here</button>
+
 <body>
 <div id="root">
 </div>
 </html>
+<!--add comments in html -->
