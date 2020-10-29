@@ -14,4 +14,4 @@ class shape {
         return 0;
     }
 }
-export {sgape}
+export {shape}
