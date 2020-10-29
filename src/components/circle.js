@@ -5,7 +5,7 @@
 
 // export class using module.exports
 
-import shape from './shape';
+import Shape from './shape';
 export default class Circle extends Shape {
     constructor(){
         super();
